@@ -35,10 +35,10 @@ int main()
   reverse(&n);
   cout << "after reverse: " << n3.next->data << endl;
   IntNode *head = &n;
- // while(head != 0)
-  //    {
-  //        cout << head->data << endl;
-   //       head = head -> next;
-    //  }
+  while(head != 0)
+     {
+         cout << head->data << endl;
+         head = head -> next;
+     }
   return 0;
 }

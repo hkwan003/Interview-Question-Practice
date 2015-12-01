@@ -24,11 +24,9 @@ void quickSort(int arr[], int left, int right)
 		}
 		if(i <= j)
 		{
-			tmp = arr[i];
+            swap(arr[i], arr[j]);
 			cout << endl;
 			cout << "argument 1: " << arr[j] << endl;
-			arr[i] = arr[j];
-			arr[j] = tmp;
 			i++;
 			j--;
 		}
