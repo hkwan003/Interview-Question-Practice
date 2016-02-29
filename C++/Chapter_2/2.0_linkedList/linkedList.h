@@ -27,5 +27,6 @@ class IntList
         void insert_sorted(int value);
         void remove_duplicates();
         void reverse();
+        void remove(int value);
 
 };
